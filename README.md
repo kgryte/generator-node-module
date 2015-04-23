@@ -42,7 +42,7 @@ The prompts are as follows...
 
 The module name.
 
-__Note__: that using the generator requires internet access, as module name availability is confirmed on NPM via [npm-name](https://github.com/sindresorhus/npm-name). 
+__Note__: using the generator requires internet access, as module name availability is confirmed on NPM via [npm-name](https://github.com/sindresorhus/npm-name). 
 
 
 #### Git
@@ -63,7 +63,7 @@ The initialization process stops short of pushing the commit to the remote repos
 
 If you elected to initialize a local Git repository, you must specify the corresponding remote repository __path__.
 
-__Note__: a repository path __must__ include the `user`/`organization` name to which the repository belongs. For example,
+__Note__: a repository path __must__ include the `user` or `organization` name to which the repository belongs. For example,
 
 ```
 my-org/new-module
