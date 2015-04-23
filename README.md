@@ -27,7 +27,7 @@ $ npm install -g @kgryte/generator-node-module
 Once installed, navigate to the directory in which you want to place generated files and run
 
 ``` bash
-$ yo node-module
+$ yo @kgryte/node-module
 ```
 
 The generator will provide a series of prompts and will use your answers to tailor the module files, providing a scaffold upon which you can immediately build.
