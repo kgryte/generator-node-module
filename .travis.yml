@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - '0.12'
+  - '0.11'
+  - '0.10'
+  - 'iojs'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-node-module' ]; then cd .. && eval "mv $currentfolder generator-node-module" && cd generator-node-module; fi
+after_script:
+  - npm run coveralls
+
